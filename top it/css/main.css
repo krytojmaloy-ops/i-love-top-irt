@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'inter', 'Merriweather';
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    background: radial-gradient(circle,rgba(255, 230, 230, 1) 0%, rgba(79, 194, 127, 1) 100%);
+    width: 100%;
+} 
+
+ .container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 50px 0;
+}
+
+header .logo {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header nav {
+    float: right;
+    width: 50%;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li a {
+    color: black;
+}
+
+header nav ul li:not(.btn) a:hover {
+    border-bottom: 2px solid rgb(67, 167, 67);
+}
+.hero {
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.hero--info{
+    width: 1000px;
+    padding-top: 50px;
+}
+
+.hero img {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.trending h3 {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 30px
+}
+.big-text {
+    padding: 50px 0;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.esse {
+    padding: 50px 0;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+footer{
+    background: black;
+    padding: 50px;
+}
+
+.blocks h7 {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+.blocks vk.img{
+    position: absolute;
+    top: 1230px;
+    left: 10;
+    
+}
